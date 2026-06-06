@@ -25,6 +25,12 @@
       32
     ]
   },
-  "test_NERNet": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 66, in test_NERNet\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n",
-  "test_glove": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 90, in test_glove\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n"
+  "test_NERNet": {
+    "f1": 0.9097958999710143,
+    "f1_wo_o": 0.7206092175316365
+  },
+  "test_glove": {
+    "f1": 0.9390940802212845,
+    "f1_wo_o": 0.8181294426422965
+  }
 }
