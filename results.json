@@ -1,1 +1,30 @@
-{}
+{
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/19-m_94zAJyXoUi8L463cKAg3bKr0vp66?usp=sharing"
+  },
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 66, in test_NERNet\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n",
+  "test_glove": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1524/1540841823.py\", line 90, in test_glove\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n"
+}
